@@ -1,0 +1,19 @@
+{
+  "name": "thuimin",
+  "version": "1.0.0",
+  "description": "personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hmintoh/thuimin.git"
+  },
+  "author": "thm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hmintoh/thuimin/issues"
+  },
+  "homepage": "https://github.com/hmintoh/thuimin#readme"
+}
