@@ -3,9 +3,9 @@ import Navbar from "./components/navbar/navbar";
 import Jumbotron from "./components/jumbotron/jumbotron";
 import About from "./components/about/about";
 import Projects from "./components/projects/projects";
+import Resume from "./components/resume/resume";
 import Contact from "./components/contact/contact";
 import Footer from "./components/footer/footer";
-import avatar from "./assets/avatar.jpeg";
 import "./App.css";
 
 class App extends Component {
@@ -16,6 +16,7 @@ class App extends Component {
         <Jumbotron />
         <About />
         <Projects />
+        <Resume />
         <Contact />
         <Footer />
       </div>

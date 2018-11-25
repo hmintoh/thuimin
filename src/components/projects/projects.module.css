@@ -1,0 +1,20 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: auto auto;
+  grid-gap: 20px;
+}
+
+.grid_item {
+  padding: 10%;
+  background-color: #f4f6f1;
+  color: #394943;
+  text-align: center;
+  border-radius: 5px 5px;
+  box-shadow: 5px 5px #242b28;
+}
+
+.grid_item:hover {
+  background-color: #976371;
+  color: #f4f6f1;
+}
