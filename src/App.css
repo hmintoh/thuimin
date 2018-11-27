@@ -5,13 +5,13 @@
 }
 
 .light {
-  padding: 3% 2%;
+  padding: 3%;
   color: #394943;
   background-color: #f4f6f1;
 }
 
 .dark {
-  padding: 3% 2%;
+  padding: 3%;
   color: #f4f6f1;
   background-color: #394943;
 }

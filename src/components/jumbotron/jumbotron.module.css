@@ -1,7 +1,10 @@
 .jumbotron {
   background-image: url("../../assets/jumbotron.jpg");
-  object-fit: cover;
+  background-repeat: no-repeat;
+  object-fit: contain;
   text-align: center;
   padding: 16% 0%;
   font-size: 3em;
+  margin-top: 3%;
+  color: #f4f6f1;
 }
