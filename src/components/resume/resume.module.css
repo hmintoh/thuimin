@@ -1,0 +1,17 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 3%;
+}
+
+@media (max-width: 767px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 3%;
+  }
+}
+
+.resumelink {
+  padding-top: 20px;
+}

@@ -5,18 +5,13 @@ const About = () => {
   return (
     <div id="about" className="light">
       <h4>
-        Hi there, I'm Min - a full stack web developer, currently based in
-        Singapore. I like building websites that are beautiful, high-quality and
-        robust. With my work I strive for that sweet spot where intention,
+        Hi, I'm Min - a full stack web developer, currently based in Singapore.
+        I like building applications that are beautiful, high-quality and
+        robust. With my work I strive for the sweet spot where intention,
         empathy, design and technology converge.
       </h4>
 
-      <p>
-        I am intrigued by strategy, technology vs. society and social change. I
-        enjoy coffee, music and meaningful conversations.
-      </p>
-
-      <h5>The Site</h5>
+      <h4>The Site</h4>
       <p>
         This is where I prototype and showcase some of the projects I had
         worked/am working on. This site is a constant work in progress as I

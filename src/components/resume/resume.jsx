@@ -2,42 +2,51 @@ import React from "react";
 import styles from "./resume.module.css";
 
 const Resume = () => {
+  const ThingsIThinkAbout = [
+    "technology & society - synergies and implications",
+    "community and empowerment",
+    "strategy",
+    "personal growth and chasing learning curves"
+  ];
+
   return (
     <div id="resume" className="light">
-      <h2>My Resume</h2>
-      <p>
-        <h4>2014 - 2018</h4>
-        Moved back to Singapore, joined Jardine Lloyd Thompson (JLT) as a Retail
-        Broker and left as a Senior Analyst in the Portfolio Management team
-      </p>
+      <div className={styles.grid}>
+        <div className={styles.grid_item}>
+          <h2>What I can do</h2>
+          <p>
+            I develop mainly in Javascript with ReactJS and Node.js but am happy
+            to pick up new technologies to develop what you need. I like to
+            build applications that are intuitive, efficient and scalable. My
+            goal is to focus on conveying the messsage you want to send.
+          </p>
+          <p className={styles.resumelink}>
+            My resume is available for download{" "}
+            <a href="images/resume.pdf" download>
+              here
+            </a>
+            .
+          </p>
+        </div>
+        <div className={styles.grid_item}>
+          <h4>I spend my time thinking about:</h4>
+          {ThingsIThinkAbout.map(item => (
+            <p>{item}</p>
+          ))}
 
-      <p>
-        <h4>2010 - 2013</h4>
-        Went to the University of Michigan and left with a B.A in Economics and
-        Philosophy
-      </p>
-
-      <p>
-        <h4>2010</h4>
-        Graduated with International Baccalaureate (IB) Diploma
-      </p>
-
-      <p>
-        Knowledge sharing and community building are important to me. I
-        volunteer for TechLadies, read my story{" "}
-        <a href="http://blog.techladies.co/meet-min-techladies-bootcamp-organizer-coffee-lover-techlady/#.W_1lhRMzYWo">
-          here
-        </a>
-        .
-      </p>
-
-      <p>
-        My resume is available for download{" "}
-        <a href="images/resume.pdf" download>
-          here
-        </a>
-        .
-      </p>
+          <p>
+            Knowledge sharing and community building are important to me. I
+            volunteer for TechLadies, read my story{" "}
+            <a
+              href="http://blog.techladies.co/meet-min-techladies-bootcamp-organizer-coffee-lover-techlady/#.W_1lhRMzYWo"
+              target="_blank"
+            >
+              here
+            </a>
+            .
+          </p>
+        </div>
+      </div>
     </div>
   );
 };

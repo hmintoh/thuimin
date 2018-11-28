@@ -1,4 +1,7 @@
 import React from "react";
+import github from "../../assets/Github.png";
+import linkedin from "../../assets/Linkedin.png";
+import gmail from "../../assets/Gmail.png";
 import styles from "./contact.module.css";
 
 const Contact = () => {
@@ -9,14 +12,17 @@ const Contact = () => {
         Interested in working together? Feel free to get in touch at
         <strong> hmintoh@gmail.com</strong>
       </p>
+
       <a href="mailto:hmintoh@gmail.com" target="_blank">
-        gmail
+        <img src={gmail} alt="gmail" className={styles.image} />
       </a>
-      <a href="https://www.linkedin.com/in/huimintoh/" target="_blank">
-        linkedin
-      </a>
+
       <a href="https://github.com/hmintoh" target="_blank">
-        github
+        <img src={github} alt="github" className={styles.image} />
+      </a>
+
+      <a href="https://www.linkedin.com/in/huimintoh/" target="_blank">
+        <img src={linkedin} alt="linkedin" className={styles.image} />
       </a>
     </div>
   );

@@ -1,5 +1,4 @@
 import React from "react";
-// import jumbotron from "../../assets/jumbotron.jpeg";
 import styles from "./jumbotron.module.css";
 
 const Jumbotron = () => {
