@@ -42,5 +42,9 @@ h5 {
 }
 
 a {
-  /* color: #f4f6f1; */
+  color: #976371;
+}
+
+a:hover {
+  font-weight: 800;
 }
