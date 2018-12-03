@@ -22,7 +22,7 @@ const About = () => {
         <a href="https://github.com/hmintoh/thuimin" target="_blank">
           Github
         </a>{" "}
-        and hosted on Github Pages.
+        and hosted on Netlify.
       </p>
     </div>
   );

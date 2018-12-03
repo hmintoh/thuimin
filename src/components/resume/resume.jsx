@@ -1,4 +1,5 @@
 import React from "react";
+import resume from "../../assets/resume (thm).pdf";
 import styles from "./resume.module.css";
 
 const Resume = () => {
@@ -15,14 +16,14 @@ const Resume = () => {
         <div className={styles.grid_item}>
           <h2>What I can do</h2>
           <p>
-            I develop mainly in Javascript with ReactJS and Node.js but am happy
+            I develop mainly in Javascript with React and Node.js but am happy
             to pick up new technologies to develop what you need. I like to
             build applications that are intuitive, efficient and scalable. My
             goal is to focus on conveying the messsage you want to send.
           </p>
           <p className={styles.resumelink}>
             My resume is available for download{" "}
-            <a href="images/resume.pdf" download>
+            <a href={resume} download>
               here
             </a>
             .
