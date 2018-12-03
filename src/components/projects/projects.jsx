@@ -76,7 +76,7 @@ const Projects = () => {
           </p>
           <h5>Static webpage</h5>
           <p>Built with HTML/CSS, Bootstrap</p>
-          <a href="http://lambda.sg/" target="_blank">
+          <a href="https://lambda-sg.netlify.com/" target="_blank">
             Site
           </a>
         </div>
