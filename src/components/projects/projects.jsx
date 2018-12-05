@@ -29,21 +29,30 @@ const Projects = () => {
 
         <div className={styles.grid_item}>
           <p>
-            <h4>Eventix</h4>(WIP)
-          </p>
-          <h5>Ticketing platform for musical shows, performances and events</h5>
-          <p>Built with React, Express, Node.js, MongoDB</p>
-        </div>
-
-        <div className={styles.grid_item}>
-          <p>
-            <h4>Wellderly</h4>(WIP)
+            <h4>Wellderly</h4>(2018)
           </p>
           <h5>Digital marketplace for elderly care and related services</h5>
           <p>
             Group project practising agile and TDD. Built with React, Express,
             Node.js, MongoDB
           </p>
+          <p>
+            use with <b>user@user.com,</b> pw:<b> user</b>
+          </p>
+          <a
+            href="https://auto-wellderly.herokuapp.com/catalogue"
+            target="_blank"
+          >
+            Site
+          </a>
+        </div>
+
+        <div className={styles.grid_item}>
+          <p>
+            <h4>Eventix</h4>(WIP)
+          </p>
+          <h5>Ticketing platform for musical shows, performances and events</h5>
+          <p>Built with React, Express, Node.js, MongoDB</p>
         </div>
 
         <div className={styles.grid_item}>
@@ -76,7 +85,7 @@ const Projects = () => {
           </p>
           <h5>Static webpage</h5>
           <p>Built with HTML/CSS, Bootstrap</p>
-          <a href="https://lambda-sg.netlify.com/" target="_blank">
+          <a href="https://lambda-sg.netlify.com" target="_blank">
             Site
           </a>
         </div>
