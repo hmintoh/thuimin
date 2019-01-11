@@ -68,12 +68,12 @@ const Projects = () => {
 
         <div className={styles.grid_item}>
           <p>
-            <h4>Chicago Global Wealth</h4>(2018)
+            <h4>Chicago Global Wealth</h4>(2019)
           </p>
           <h5>Static webpage</h5>
-          <p>Built with React</p>
+          <p>Built with React, CSS Grid</p>
           <p>
-            <a href="https://cgwealth.netlify.com/" target="_blank">
+            <a href="https://www.chicagoglobalstrategies.com/" target="_blank">
               Site
             </a>
           </p>
