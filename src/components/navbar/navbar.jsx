@@ -1,5 +1,4 @@
 import React from "react";
-import avatar from "../../assets/avatar.jpeg";
 import styles from "./navbar.module.css";
 
 const Navbar = () => {

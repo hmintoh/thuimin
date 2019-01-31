@@ -31,7 +31,7 @@ const Resume = () => {
         </div>
         <div className={styles.grid_item}>
           <h4>I spend my time thinking about:</h4>
-          {ThingsIThinkAbout.map(item => (
+          {ThingsIThinkAbout.map((item, key) => (
             <p>{item}</p>
           ))}
 
@@ -41,6 +41,7 @@ const Resume = () => {
             <a
               href="http://blog.techladies.co/meet-min-techladies-bootcamp-organizer-coffee-lover-techlady/#.W_1lhRMzYWo"
               target="_blank"
+              rel="noopener noreferrer"
             >
               here
             </a>

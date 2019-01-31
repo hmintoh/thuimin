@@ -13,15 +13,27 @@ const Contact = () => {
         <strong> hmintoh@gmail.com</strong>
       </p>
 
-      <a href="mailto:hmintoh@gmail.com" target="_blank">
+      <a
+        href="mailto:hmintoh@gmail.com"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <img src={gmail} alt="gmail" className={styles.image} />
       </a>
 
-      <a href="https://github.com/hmintoh" target="_blank">
+      <a
+        href="https://github.com/hmintoh"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <img src={github} alt="github" className={styles.image} />
       </a>
 
-      <a href="https://www.linkedin.com/in/huimintoh/" target="_blank">
+      <a
+        href="https://www.linkedin.com/in/huimintoh/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <img src={linkedin} alt="linkedin" className={styles.image} />
       </a>
     </div>

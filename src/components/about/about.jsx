@@ -1,5 +1,4 @@
 import React from "react";
-import styles from "./about.module.css";
 
 const About = () => {
   return (
@@ -19,7 +18,11 @@ const About = () => {
       </p>
       <p>
         The code is available on{" "}
-        <a href="https://github.com/hmintoh/thuimin" target="_blank">
+        <a
+          href="https://github.com/hmintoh/thuimin"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Github
         </a>{" "}
         and hosted on Netlify.
