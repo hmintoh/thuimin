@@ -37,6 +37,7 @@
 .grid_item:hover {
   background-color: #976371;
   color: #f4f6f1;
+  transition-duration: 0.5s;
 }
 
 a {
