@@ -60,14 +60,10 @@ const Projects = () => {
 
         <div className={styles.grid_item}>
           <h4>Prototype</h4>
-          <p>(2018)</p>
+          <p>(WIP)</p>
           <h5>Static webpage</h5>
-          <p>Built with Ruby on Rails, CSS Grid</p>
-          <a
-            href="http://www.prototypes.sg/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <p>Built with React, CSS Grid</p>
+          <a href="prototypes.sg" target="_blank" rel="noopener noreferrer">
             Site
           </a>
         </div>
