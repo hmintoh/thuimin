@@ -63,7 +63,11 @@ const Projects = () => {
           <p>(WIP)</p>
           <h5>Static webpage</h5>
           <p>Built with React, CSS Grid</p>
-          <a href="prototypes.sg" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://www.prototypes.sg"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Site
           </a>
         </div>
