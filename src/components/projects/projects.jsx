@@ -89,6 +89,22 @@ const Projects = () => {
         </div>
 
         <div className={styles.grid_item}>
+          <h4>Audioground SG</h4>
+          <p>(2019)</p>
+          <h5>Static webpage</h5>
+          <p>Built with React</p>
+          <p>
+            <a
+              href="https://audioground.sg/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Site
+            </a>
+          </p>
+        </div>
+
+        <div className={styles.grid_item}>
           <h4>Lambda</h4>
           <p>(2017)</p>
           <h5>Static webpage</h5>
