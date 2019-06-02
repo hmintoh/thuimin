@@ -42,10 +42,18 @@ const Resume = () => {
             volunteer for TechLadies, read my story{" "}
             <a href={newsArticle} download>
               here
+            </a>
+            ,{" "}
+            <a
+              href="http://blog.techladies.co/meet-min-techladies-bootcamp-organizer-coffee-lover-techlady/#.W_1lhRMzYWo"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              here
             </a>{" "}
             and{" "}
             <a
-              href="http://blog.techladies.co/meet-min-techladies-bootcamp-organizer-coffee-lover-techlady/#.W_1lhRMzYWo"
+              href="https://shelovesdata.com/2019/05/26/min-frontend-pebbleroad/"
               target="_blank"
               rel="noopener noreferrer"
             >
