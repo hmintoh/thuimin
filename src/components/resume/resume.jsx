@@ -17,10 +17,9 @@ const Resume = () => {
         <div className={styles.grid_item}>
           <h2>What I can do</h2>
           <p>
-            I develop mainly in Javascript with React and Node.js but am happy
-            to pick up new technologies to develop what you need. I like to
-            build applications that are intuitive, efficient and scalable. My
-            goal is to focus on conveying the messsage you want to send.
+            I develop mainly in Javascript with Vue and Node.js but am happy to
+            pick up new technologies to develop what you need. I like to build
+            applications that are intuitive, efficient and scalable.
           </p>
           <p className={styles.resumelink}>
             My resume is available for download{" "}
@@ -40,23 +39,21 @@ const Resume = () => {
           <p>
             Knowledge sharing and community building are important to me. I
             volunteer for TechLadies, read my story{" "}
-            <a href={newsArticle} download>
+            <a href={newsArticle} target="_blank" rel="noopener noreferrer">
               here
             </a>
             ,{" "}
             <a
               href="http://blog.techladies.co/meet-min-techladies-bootcamp-organizer-coffee-lover-techlady/#.W_1lhRMzYWo"
               target="_blank"
-              rel="noopener noreferrer"
-            >
+              rel="noopener noreferrer">
               here
             </a>{" "}
             and{" "}
             <a
-              href="https://shelovesdata.com/2019/05/26/min-frontend-pebbleroad/"
+              href="https://shelovesdata.com/min-frontend-pebbleroad/"
               target="_blank"
-              rel="noopener noreferrer"
-            >
+              rel="noopener noreferrer">
               here
             </a>
             .

@@ -17,18 +17,10 @@ const Projects = () => {
             <a
               href="https://engineers.sg/video/team-techladies-techladies-bootcamp-3--2228"
               target="_blank"
-              rel="noopener noreferrer"
-            >
+              rel="noopener noreferrer">
               here
             </a>
           </p>
-          <a
-            href="http://www.bootcamp.techladies.co/admins/sign_in"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Site
-          </a>
         </div>
 
         <div className={styles.grid_item}>
@@ -45,8 +37,7 @@ const Projects = () => {
           <a
             href="https://auto-wellderly.herokuapp.com/catalogue"
             target="_blank"
-            rel="noopener noreferrer"
-          >
+            rel="noopener noreferrer">
             Site
           </a>
         </div>
@@ -60,14 +51,13 @@ const Projects = () => {
 
         <div className={styles.grid_item}>
           <h4>Prototype</h4>
-          <p>(WIP)</p>
-          <h5>Static webpage</h5>
-          <p>Built with React, CSS Grid</p>
+          <p>(2019)</p>
+          <h5>Corporate website</h5>
+          <p>Built with React</p>
           <a
             href="https://www.prototypes.sg"
             target="_blank"
-            rel="noopener noreferrer"
-          >
+            rel="noopener noreferrer">
             Site
           </a>
         </div>
@@ -75,14 +65,13 @@ const Projects = () => {
         <div className={styles.grid_item}>
           <h4>Chicago Global Wealth</h4>
           <p>(2019)</p>
-          <h5>Static webpage</h5>
-          <p>Built with React, CSS Grid</p>
+          <h5>Corporate website</h5>
+          <p>Demo built with React</p>
           <p>
             <a
-              href="https://www.chicagoglobalstrategies.com/"
+              href="https://cgwealth.netlify.com/"
               target="_blank"
-              rel="noopener noreferrer"
-            >
+              rel="noopener noreferrer">
               Site
             </a>
           </p>
@@ -91,14 +80,13 @@ const Projects = () => {
         <div className={styles.grid_item}>
           <h4>Audioground SG</h4>
           <p>(2019)</p>
-          <h5>Static webpage</h5>
+          <h5>Corporate website</h5>
           <p>Built with React</p>
           <p>
             <a
               href="https://audioground.sg/"
               target="_blank"
-              rel="noopener noreferrer"
-            >
+              rel="noopener noreferrer">
               Site
             </a>
           </p>
@@ -107,13 +95,9 @@ const Projects = () => {
         <div className={styles.grid_item}>
           <h4>Lambda</h4>
           <p>(2017)</p>
-          <h5>Static webpage</h5>
-          <p>Built with HTML/CSS, Bootstrap</p>
-          <a
-            href="https://lambda-sg.netlify.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <h5>Corporate website</h5>
+          <p>Built with HTML/CSS</p>
+          <a href="https://lambda.sg" target="_blank" rel="noopener noreferrer">
             Site
           </a>
         </div>

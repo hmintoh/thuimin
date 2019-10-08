@@ -1,31 +1,20 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
 
 class About extends Component {
-  constructor() {
-    super();
-    this.state = {
-      tagline: ""
-    };
-  }
-
-  handleMouseover = event => {
-    this.setState({tagline: "animated slow pulse"});
-  };
-
   render() {
     return (
-      <div id="about" className="light" onMouseEnter={this.handleMouseover}>
+      <div id="about" className="light">
         <h4>
           Hi, I'm Min - a full stack web developer, currently based in
-          Singapore. I like building applications that are beautiful,
+          Singapore. I like to design and build applications that are beautiful,
           high-quality and robust. With my work I strive for the sweet spot
           where intention, empathy, design and technology converge.
         </h4>
 
         <h4>The Site</h4>
         <p>
-          This is where I prototype and showcase some of the projects I had
-          worked/am working on. This site is a constant work in progress as I
+          This is where I prototype and showcase some of the projects I have
+          worked/ am working on. This site is a constant work in progress as I
           tweak and add content.
         </p>
         <p>
@@ -33,8 +22,7 @@ class About extends Component {
           <a
             href="https://github.com/hmintoh/thuimin"
             target="_blank"
-            rel="noopener noreferrer"
-          >
+            rel="noopener noreferrer">
             Github
           </a>{" "}
           and hosted on Netlify.
