@@ -40,6 +40,15 @@
   transition-duration: 0.5s;
 }
 
+.date {
+  margin-top: 0;
+}
+
+.summary {
+  font-family: "Prata", Serif;
+  font-weight: 600;
+}
+
 a {
   color: #394943;
 }

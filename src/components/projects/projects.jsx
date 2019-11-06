@@ -9,9 +9,11 @@ const Projects = () => {
 
         <div className={styles.grid}>
           <div className={styles.grid_item}>
-            <h4>Wellderly</h4>
-            <p>(2018)</p>
-            <h5>Digital marketplace for elderly care and related services</h5>
+            <h3>Wellderly</h3>
+            <p className={styles.date}>(2018)</p>
+            <p className={styles.summary}>
+              Digital marketplace for elderly care and related services
+            </p>
             <p>
               Group project practising agile and TDD. Built with React, Express,
               Node.js, MongoDB
@@ -28,18 +30,20 @@ const Projects = () => {
           </div>
 
           <div className={styles.grid_item}>
-            <h4>Eventix</h4>
-            <p>(WIP)</p>
-            <h5>
+            <h3>Eventix</h3>
+            <p className={styles.date}>(WIP)</p>
+            <p className={styles.summary}>
               Ticketing platform for musical shows, performances and events
-            </h5>
+            </p>
             <p>Built with React, Express, Node.js, MongoDB</p>
           </div>
 
           <div className={styles.grid_item}>
-            <h4>TechLadies</h4>
-            <p>(2017)</p>
-            <h5>Platform to manage Bootcamp applications</h5>
+            <h3>TechLadies</h3>
+            <p className={styles.date}>(2017)</p>
+            <p className={styles.summary}>
+              Platform to manage Bootcamp applications
+            </p>
             <p>Group Project. Built with Ruby on Rails, PostgreSQL</p>
             <p>
               View recording of app demo{" "}
@@ -53,9 +57,9 @@ const Projects = () => {
           </div>
 
           <div className={styles.grid_item}>
-            <h4>Lambda</h4>
-            <p>(2019)</p>
-            <h5>Corporate website</h5>
+            <h3>Lambda</h3>
+            <p className={styles.date}>(2019)</p>
+            <p className={styles.summary}>Corporate website</p>
             <p>Built with Vue, Webpack, Vue transitions</p>
             <a
               href="https://lambda.sg"
@@ -66,9 +70,9 @@ const Projects = () => {
           </div>
 
           <div className={styles.grid_item}>
-            <h4>Prototype</h4>
-            <p>(2019)</p>
-            <h5>Corporate website</h5>
+            <h3>Prototype</h3>
+            <p className={styles.date}>(2019)</p>
+            <p className={styles.summary}>Corporate website</p>
             <p>Built with React</p>
             <a
               href="https://www.prototypes.sg"
@@ -79,9 +83,9 @@ const Projects = () => {
           </div>
 
           <div className={styles.grid_item}>
-            <h4>Audioground SG</h4>
-            <p>(2019)</p>
-            <h5>Corporate website</h5>
+            <h3>Audioground SG</h3>
+            <p className={styles.date}>(2019)</p>
+            <p className={styles.summary}>Corporate website</p>
             <p>Built with React</p>
             <p>
               <a
@@ -94,9 +98,9 @@ const Projects = () => {
           </div>
 
           <div className={styles.grid_item}>
-            <h4>Chicago Global Wealth</h4>
-            <p>(2019)</p>
-            <h5>Corporate website</h5>
+            <h3>Chicago Global Wealth</h3>
+            <p className={styles.date}>(2019)</p>
+            <p className={styles.summary}>Corporate website</p>
             <p>Demo built with React</p>
             <p>
               <a
