@@ -1,4 +1,4 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
 import "./navbar.css";
 
 let lastScrollTop = 0;
@@ -6,7 +6,7 @@ let lastScrollTop = 0;
 class Navbar extends Component {
   constructor() {
     super();
-    this.state = {navbar: "animated fadeInDown"};
+    this.state = { navbar: "animated fadeInDown" };
   }
 
   componentDidMount = () => {
@@ -21,9 +21,9 @@ class Navbar extends Component {
     const currentScrollTop = window.pageYOffset;
 
     if (currentScrollTop > lastScrollTop) {
-      this.setState({navbar: "animated fadeOutUp"});
+      this.setState({ navbar: "animated fadeOutUp" });
     } else {
-      this.setState({navbar: "animated fadeInDown"});
+      this.setState({ navbar: "animated fadeInDown" });
     }
     lastScrollTop = currentScrollTop;
   };
@@ -33,12 +33,13 @@ class Navbar extends Component {
       <div
         id="nav"
         className={`navbar ${this.state.navbar}`}
-        onScroll={this.handleScroll}
-      >
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#resume">Resume</a>
-        <a href="#contact">Contact</a>
+        onScroll={this.handleScroll}>
+        <div className="wrapper">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#resume">Resume</a>
+          <a href="#contact">Contact</a>
+        </div>
       </div>
     );
   }

@@ -2,3 +2,12 @@
   width: 40px;
   padding-right: 2%;
 }
+
+.socialsList {
+  padding-left: 0;
+}
+
+.socialsList li {
+  display: inline;
+  list-style: none;
+}

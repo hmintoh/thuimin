@@ -5,15 +5,20 @@
 }
 
 .light {
-  padding: 3%;
+  padding: 4%;
   color: #394943;
   background-color: #f4f6f1;
 }
 
 .dark {
-  padding: 3%;
+  padding: 4%;
   color: #f4f6f1;
   background-color: #394943;
+}
+
+.wrapper {
+  max-width: 1280px;
+  margin: auto;
 }
 
 /*colors
