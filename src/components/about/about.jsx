@@ -6,10 +6,10 @@ class About extends Component {
       <div id="about" className="light">
         <div className="wrapper">
           <h4>
-            Hi, I'm Min - a full stack web developer, currently based in
-            Singapore. I like to design and build applications that are
-            beautiful, high-quality and robust. With my work I strive for the
-            sweet spot where intention, empathy, design and technology converge.
+            Hi, I'm Min - a web developer currently based in Singapore. I like
+            to design and build applications that are beautiful, high-quality
+            and robust. With my work I strive for the sweet spot where
+            intention, empathy, design and technology converge.
           </h4>
 
           <h4>The Site</h4>

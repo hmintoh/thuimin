@@ -2,9 +2,11 @@ import React from "react";
 import "./footer.module.css";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
     <footer>
-      <p>copyright &copy; 2019 thm. all rights reserved</p>
+      <p>copyright &copy; {currentYear} thm. all rights reserved</p>
     </footer>
   );
 };
