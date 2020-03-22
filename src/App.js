@@ -1,10 +1,10 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
 import Navbar from "./components/navbar/navbar";
 import Jumbotron from "./components/jumbotron/jumbotron";
-import About from "./components/about/about";
-import Projects from "./components/projects/projects";
-import Resume from "./components/resume/resume";
-import Contact from "./components/contact/contact";
+import About from "./views/about/about";
+import Projects from "./views/projects/projects";
+import Resume from "./views/resume/resume";
+import Contact from "./views/contact/contact";
 import Footer from "./components/footer/footer";
 import "./App.css";
 
