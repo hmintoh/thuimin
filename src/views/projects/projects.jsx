@@ -8,9 +8,31 @@ const Projects = () => {
         <h2>Selected Projects</h2>
 
         <div className={styles.grid}>
+           <div className={styles.grid_item}>
+            <h3>Eventix</h3>
+            <p className={styles.date}>(WIP)</p>
+            <p className={styles.summary}>
+              Ticketing platform for musical shows, performances and events
+            </p>
+            <p>Built with React, Express, Node.js, MongoDB</p>
+          </div>
+
+          <div className={styles.grid_item}>
+            <h3>Lambda</h3>
+            <p className={styles.date}>(2020)</p>
+            <p className={styles.summary}>Corporate website</p>
+            <p>Built with Vue, Webpack, Vue transitions</p>
+            <a
+              href="https://lambda.sg"
+              target="_blank"
+              rel="noopener noreferrer">
+              Site
+            </a>
+          </div>
+
           <div className={styles.grid_item}>
             <h3>Wellderly</h3>
-            <p className={styles.date}>(2018)</p>
+            <p className={styles.date}>(2019)</p>
             <p className={styles.summary}>
               Digital marketplace for elderly care and related services
             </p>
@@ -23,46 +45,6 @@ const Projects = () => {
             </p>
             <a
               href="https://auto-wellderly.herokuapp.com/catalogue"
-              target="_blank"
-              rel="noopener noreferrer">
-              Site
-            </a>
-          </div>
-
-          <div className={styles.grid_item}>
-            <h3>Eventix</h3>
-            <p className={styles.date}>(WIP)</p>
-            <p className={styles.summary}>
-              Ticketing platform for musical shows, performances and events
-            </p>
-            <p>Built with React, Express, Node.js, MongoDB</p>
-          </div>
-
-          <div className={styles.grid_item}>
-            <h3>TechLadies</h3>
-            <p className={styles.date}>(2017)</p>
-            <p className={styles.summary}>
-              Platform to manage Bootcamp applications
-            </p>
-            <p>Group Project. Built with Ruby on Rails, PostgreSQL</p>
-            <p>
-              View recording of app demo{" "}
-              <a
-                href="https://engineers.sg/video/team-techladies-techladies-bootcamp-3--2228"
-                target="_blank"
-                rel="noopener noreferrer">
-                here
-              </a>
-            </p>
-          </div>
-
-          <div className={styles.grid_item}>
-            <h3>Lambda</h3>
-            <p className={styles.date}>(2019)</p>
-            <p className={styles.summary}>Corporate website</p>
-            <p>Built with Vue, Webpack, Vue transitions</p>
-            <a
-              href="https://lambda.sg"
               target="_blank"
               rel="noopener noreferrer">
               Site
@@ -89,7 +71,7 @@ const Projects = () => {
             <p>Built with React</p>
             <p>
               <a
-                href="https://audioground.sg/"
+                href="https://audioground.netlify.com/"
                 target="_blank"
                 rel="noopener noreferrer">
                 Site
@@ -98,7 +80,7 @@ const Projects = () => {
           </div>
 
           <div className={styles.grid_item}>
-            <h3>Chicago Global Wealth</h3>
+            <h3>Chicago Global</h3>
             <p className={styles.date}>(2019)</p>
             <p className={styles.summary}>Corporate website</p>
             <p>Demo built with React</p>
@@ -108,6 +90,24 @@ const Projects = () => {
                 target="_blank"
                 rel="noopener noreferrer">
                 Site
+              </a>
+            </p>
+          </div>
+
+          <div className={styles.grid_item}>
+            <h3>TechLadies</h3>
+            <p className={styles.date}>(2017)</p>
+            <p className={styles.summary}>
+              Platform to manage Bootcamp applications
+            </p>
+            <p>Group Project. Built with Ruby on Rails, PostgreSQL</p>
+            <p>
+              View app demo{" "}
+              <a
+                href="https://engineers.sg/video/team-techladies-techladies-bootcamp-3--2228"
+                target="_blank"
+                rel="noopener noreferrer">
+                here
               </a>
             </p>
           </div>

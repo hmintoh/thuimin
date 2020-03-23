@@ -1,13 +1,12 @@
 import React from "react";
 import resume from "../../assets/resume.pdf";
-import newsArticle from "../../assets/straits-times.jpg";
 import styles from "./resume.module.css";
 
 const Resume = () => {
   const ThingsIThinkAbout = [
     "technology & society - synergies and implications",
     "community and empowerment",
-    "strategy",
+    "gender diversity in tech",
     "personal growth and chasing learning curves"
   ];
 
@@ -20,8 +19,7 @@ const Resume = () => {
             <h2>What I can do</h2>
             <p>
               I develop mainly in Javascript with Vue and Node.js but am happy
-              to pick up new technologies to develop what you need. I like to
-              build applications that are intuitive, efficient and scalable.
+              to pick up new technologies.
             </p>
             <p className={styles.resumelink}>
               My resume is available for download{" "}
@@ -39,26 +37,18 @@ const Resume = () => {
               ))}
             </ul>
             <p>
-              Knowledge sharing and community building are important to me. I
-              volunteer for TechLadies, read my story{" "}
-              <a href={newsArticle} target="_blank" rel="noopener noreferrer">
-                here
+              Knowledge sharing and community building are important to me. In
+              my free time, I volunteer for{" "}
+              <a href="http://www.techladies.co/" target="_blank">
+                TechLadies
               </a>
-              ,{" "}
-              <a
+              ; read my story{" "}
+               <a
                 href="http://blog.techladies.co/meet-min-techladies-bootcamp-organizer-coffee-lover-techlady/#.W_1lhRMzYWo"
                 target="_blank"
                 rel="noopener noreferrer">
                 here
-              </a>{" "}
-              and{" "}
-              <a
-                href="https://shelovesdata.com/min-frontend-pebbleroad/"
-                target="_blank"
-                rel="noopener noreferrer">
-                here
-              </a>
-              .
+              </a>.
             </p>
           </div>
         </div>
