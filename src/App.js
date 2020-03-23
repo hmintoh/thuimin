@@ -4,6 +4,7 @@ import Jumbotron from "./components/jumbotron/jumbotron";
 import About from "./views/about/about";
 import Projects from "./views/projects/projects";
 import Resume from "./views/resume/resume";
+import Press from "./views/press/press";
 import Contact from "./views/contact/contact";
 import Footer from "./components/footer/footer";
 import "./App.css";
@@ -17,6 +18,7 @@ class App extends Component {
         <About />
         <Projects />
         <Resume />
+        <Press />
         <Contact />
         <Footer />
       </div>

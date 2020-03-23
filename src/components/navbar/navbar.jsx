@@ -38,6 +38,7 @@ class Navbar extends Component {
           <a href="#about">About</a>
           <a href="#projects">Projects</a>
           <a href="#resume">Resume</a>
+          <a href="#press">Press</a>
           <a href="#contact">Contact</a>
         </div>
       </div>
