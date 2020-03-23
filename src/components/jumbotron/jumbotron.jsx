@@ -4,7 +4,7 @@ import styles from "./jumbotron.module.css";
 const Jumbotron = () => {
   return (
     <div id="jumbotron" className={styles.jumbotron}>
-      <p className="animated slow fadeInUp">Hi</p>
+      <h1 className="animated slow fadeInUp">Hi</h1>
     </div>
   );
 };
