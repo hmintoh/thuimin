@@ -1,16 +1,16 @@
 import React from "react";
-import github from "../../assets/Github.png";
-import linkedin from "../../assets/Linkedin.png";
-import gmail from "../../assets/Gmail.png";
+import github from "../../assets/github.svg";
+import linkedin from "../../assets/linkedin.svg";
+import gmail from "../../assets/gmail.svg";
 import styles from "./contact.module.css";
 
 const Contact = () => {
   return (
-    <div id="contact" className="dark">
+    <div id="contact" className="light">
       <div className="wrapper">
         <h2>Let's connect.</h2>
         <p>
-          Interested in working together? Feel free to get in touch at
+          Interested in working together? Please get in touch at
           <strong> hmintoh@gmail.com</strong>
         </p>
 
