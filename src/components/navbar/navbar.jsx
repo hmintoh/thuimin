@@ -21,8 +21,6 @@ class Navbar extends Component {
     const currentScrollTop = window.pageYOffset;
 
     if (currentScrollTop > lastScrollTop) {
-      this.setState({ navbar: "animated fadeOutUp" });
-    } else {
       this.setState({ navbar: "animated fadeInDown" });
     }
     lastScrollTop = currentScrollTop;
