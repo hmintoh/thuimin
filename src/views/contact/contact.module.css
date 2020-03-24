@@ -1,6 +1,6 @@
 .image {
   width: 2rem;
-  padding-right: 2%;
+  padding-right: 1rem;
 }
 
 .socialsList {
@@ -10,4 +10,10 @@
 .socialsList li {
   display: inline;
   list-style: none;
+}
+
+@media (min-width: 769px) {
+  .image {
+    padding-right: 1.2rem;
+  }
 }

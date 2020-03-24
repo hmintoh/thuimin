@@ -30,7 +30,7 @@ const Resume = () => {
             </p>
           </div>
           <div className={styles.grid_item}>
-            <h4>I spend my time thinking about:</h4>
+            <p className="heading--h4">I spend my time thinking about:</p>
             <ul>
               {ThingsIThinkAbout.map((item, key) => (
                 <li key={key}>{item}</li>

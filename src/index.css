@@ -1,12 +1,12 @@
 html {
   scroll-behavior: smooth;
+  font-size: 16px;
 }
 
 body {
   margin: 0;
   padding: 0;
   font-family: "Work Sans", sans-serif;
-  font-size: 1.125rem;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -17,37 +17,44 @@ h2,
 h3,
 h4,
 h5,
-h6, .heading--h4 {
+h6, 
+.heading--h4,
+.heading--h5,
+.heading--h6 {
   font-family: "Prata", Serif;
-  /* word-spacing: 1px; */
   margin-block-end: 0%;
   font-weight: bold;
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 2.8rem;
 }
 
 h2 {
-  font-size: 2.6rem;
-  margin-top: 2rem;
-  margin-bottom: 1.2rem;
+  font-size: 2.4rem;
+  margin-block-start: 0;
+  margin-block-end: 1.2rem;
 }
 
 h3 {
-  font-size: 2rem;
-  margin-top: 1.6rem;
-  margin-bottom: 1rem;
+  font-size: 1.8rem;
+  margin-block-start: 1rem;
+  margin-block-end: 1rem;
 }
 
 h4, .heading--h4 {
   font-size: 1.6rem;
-  margin-top: 1.4rem;
-  margin-bottom: 1rem;
+  margin-block-end: 1rem;
 }
 
-h5 {
+h5, .heading--h5 {
+  font-size: 1.4rem;
+  margin-block-end: 1rem;
+}
+
+h6, .heading--h6 {
   font-size: 1rem;
+  margin-block-end: 1rem;
 }
 
 a {
@@ -56,12 +63,20 @@ a {
 
 a:hover {
   font-weight: 800;
-  /* transition: all 0.2s ease; */
 }
 
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  font-size: 1rem;
 }
+
+@media (min-width: 769px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+
 
 
