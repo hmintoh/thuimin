@@ -2,6 +2,7 @@ import React from "react";
 import github from "../../assets/github.svg";
 import linkedin from "../../assets/linkedin.svg";
 import gmail from "../../assets/gmail.svg";
+import devto from "../../assets/devto.svg";
 import styles from "./contact.module.css";
 
 const Contact = () => {
@@ -10,8 +11,7 @@ const Contact = () => {
       <div className="wrapper">
         <h2>Let's connect.</h2>
         <p>
-          Interested in working together? Please get in touch at
-          <strong> hmintoh@gmail.com</strong>
+          Please get in touch at<strong> hmintoh@gmail.com</strong>.
         </p>
 
         <ul className={styles.socialsList}>
@@ -40,6 +40,15 @@ const Contact = () => {
               rel="noopener noreferrer"
               title="Linkedin">
               <img src={linkedin} alt="linkedin" className={styles.image} />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://dev.to/hmintoh"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Dev.To">
+              <img src={devto} alt="linkedin" className={styles.image} />
             </a>
           </li>
         </ul>
