@@ -5,27 +5,26 @@ import newsArticle from "../../assets/straits-times.jpg";
 const Press = () => {
   const pressObject = [
     {
-      source: "Microsoft Tech Community APAC Online Conference",
+      source: "Microsoft Tech Community APAC Online Conference (2020)",
       title: "Humans of IT: Making the Change - A career transition into Tech",
       url:
-        "https://www.youtube.com/watch?v=iHxs86nl7nA&list=PLbWhpxBHr6BVsZDbAcuJd6njEC1c5GjaB&index=14"
+        "https://www.youtube.com/watch?v=iHxs86nl7nA&list=PLbWhpxBHr6BVsZDbAcuJd6njEC1c5GjaB&index=14",
     },
     {
-      source: "Straits Times",
+      source: "TechLadies (2020)",
+      title: "Where are they now - Min",
+      url: "http://blog.techladies.co/where-are-they-now-min/#.Xuw-YGozbOQ",
+    },
+    {
+      source: "Straits Times (2019)",
       title: "Women Changing The Face of Tech",
-      url: newsArticle
+      url: newsArticle,
     },
     {
-      source: "She Loves Data",
+      source: "She Loves Data (2019)",
       title: "Real People In Data: An Interview with Toh Hui Min",
-      url: "https://shelovesdata.com/min-frontend-pebbleroad/"
+      url: "https://shelovesdata.com/min-frontend-pebbleroad/",
     },
-    {
-      source: "TechLadies",
-      title: "Meet Min – TechLadies Bootcamp organizer, Coffee-lover, TechLady",
-      url:
-        "http://blog.techladies.co/meet-min-techladies-bootcamp-organizer-coffee-lover-techlady/#.XnjfyhMzbOR"
-    }
   ];
 
   return (
