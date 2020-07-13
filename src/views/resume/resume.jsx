@@ -4,22 +4,23 @@ import styles from "./resume.module.css";
 
 const Resume = () => {
   const ThingsIThinkAbout = [
-    "technology & society - synergies and implications",
+    "intuitive tech; bridging the gap betwen physical and digital interfaces",
+    "user experience and human-centered design",
     "community and empowerment",
-    "gender diversity in tech",
-    "personal growth and chasing learning curves"
+    "diversity in tech and businesses",
+    "personal growth and chasing learning curves",
   ];
 
   return (
     <div id="resume" className="light">
       <div className="wrapper">
-        {" "}
         <div className={styles.grid}>
           <div className={styles.grid_item}>
             <h2>What I can do</h2>
             <p>
-              I develop mainly in Javascript with Vue and Node.js but am happy
-              to pick up new technologies.
+              I develop mainly in Javascript with Vue, React and Node.js but am
+              happy to pick up new technologies. Currently picking up Typescript
+              and styled components.
             </p>
             <p className={styles.resumelink}>
               My resume is available for download{" "}
@@ -39,16 +40,13 @@ const Resume = () => {
             <p>
               Knowledge sharing and community building are important to me. In
               my free time, I volunteer for{" "}
-              <a href="http://www.techladies.co/" target="_blank">
+              <a
+                href="http://www.techladies.co/"
+                target="_blank"
+                rel="noreferrer noopener">
                 TechLadies
               </a>
-              ; read my story{" "}
-               <a
-                href="http://blog.techladies.co/meet-min-techladies-bootcamp-organizer-coffee-lover-techlady/#.W_1lhRMzYWo"
-                target="_blank"
-                rel="noopener noreferrer">
-                here
-              </a>.
+              .
             </p>
           </div>
         </div>
