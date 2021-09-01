@@ -8,7 +8,7 @@ const Projects = () => {
         <h2>Selected projects</h2>
 
         <div className={styles.grid}>
-           <div className={styles.grid_item}>
+          <div className={styles.grid_item}>
             <h3>Eventix</h3>
             <p className={styles.date}>(WIP)</p>
             <p className="heading--h6">
@@ -25,7 +25,8 @@ const Projects = () => {
             <a
               href="https://lambda.sg"
               target="_blank"
-              rel="noopener noreferrer">
+              rel="noopener noreferrer"
+            >
               Site
             </a>
           </div>
@@ -46,7 +47,8 @@ const Projects = () => {
             <a
               href="https://auto-wellderly.herokuapp.com/catalogue"
               target="_blank"
-              rel="noopener noreferrer">
+              rel="noopener noreferrer"
+            >
               Site
             </a>
           </div>
@@ -59,7 +61,8 @@ const Projects = () => {
             <a
               href="https://www.prototypes.sg"
               target="_blank"
-              rel="noopener noreferrer">
+              rel="noopener noreferrer"
+            >
               Site
             </a>
           </div>
@@ -73,7 +76,8 @@ const Projects = () => {
               <a
                 href="https://audioground.netlify.com/"
                 target="_blank"
-                rel="noopener noreferrer">
+                rel="noopener noreferrer"
+              >
                 Site
               </a>
             </p>
@@ -88,13 +92,14 @@ const Projects = () => {
               <a
                 href="https://cgwealth.netlify.com/"
                 target="_blank"
-                rel="noopener noreferrer">
+                rel="noopener noreferrer"
+              >
                 Site
               </a>
             </p>
           </div>
 
-          <div className={styles.grid_item}>
+          {/* <div className={styles.grid_item}>
             <h3>TechLadies</h3>
             <p className={styles.date}>(2017)</p>
             <p className="heading--h6">
@@ -110,7 +115,7 @@ const Projects = () => {
                 here
               </a>
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
