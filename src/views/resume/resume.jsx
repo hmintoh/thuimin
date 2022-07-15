@@ -18,7 +18,7 @@ const Resume = () => {
           <div className={styles.grid_item}>
             <h2>What I can do</h2>
             <p>
-              I develop mainly in Javascript with Vue, React and Node.js but am
+              I develop mainly in Javascript with React, Vue and Node.js but am
               happy to pick up new technologies. Currently picking up Typescript
               and styled components.
             </p>
@@ -37,17 +37,6 @@ const Resume = () => {
                 <li key={key}>{item}</li>
               ))}
             </ul>
-            <p>
-              Knowledge sharing and community building are important to me. In
-              my free time, I volunteer for{" "}
-              <a
-                href="http://www.techladies.co/"
-                target="_blank"
-                rel="noreferrer noopener">
-                TechLadies
-              </a>
-              .
-            </p>
           </div>
         </div>
       </div>

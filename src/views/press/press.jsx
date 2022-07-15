@@ -4,6 +4,7 @@ import newsArticle from "../../assets/straits-times.jpg";
 
 const Press = () => {
   const pressObject = [
+    {source: "Public Service Division - Challenge (2022)", title: "Responding as One Public Service", url: "https://www.psd.gov.sg/challenge/covid-19/stories/finding-new-ways/making-gowhere-the-go-to-resource-platform"},
     {
       source: "Microsoft Tech Community APAC Online Conference (2020)",
       title: "Humans of IT: Making the Change - A career transition into Tech",
